@@ -5,3 +5,10 @@ seaborn
 names
 requests
 beautifulsoup4
+aiogram
+redis
+flask
+flask-login
+django
+flet
+fastapi
