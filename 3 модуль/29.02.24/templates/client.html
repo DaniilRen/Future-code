@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="{{ url_for('static', filename='stylesheet/style.css') }}">
+	<title>Client</title>
+</head>
+<body>
+	<div class="content">
+		<h1>Car service</h1>
+		<div class="info-box">All queries should be written within such a pattern: <br>
+			http://127.0.0.1:4002?... <br>
+			For example: http://127.0.0.1:4002?id=7
+		<h2>List of query parameters:</h2>
+		</div>
+		<div class="info-box">
+			<p>Create car by id. Use crt=...</p>
+			<p>Example: crt=Toyota - creates car with model=Toyota</p>
+		<div class="info-box">
+		<div class="info-box">
+			<p>Get car model by id. Use id=...</p>
+			<p>Example: id=24 - gets model with id=24</p>
+		<div class="info-box">
+			<p>Delete car model by id. Use del=...</p> 
+			<p>Example: del=78 - deletes model with id=78</p>
+		</div>
+		<div class="info-box">
+			<p>Update car model by id. Use upd=...</p> 
+			<p>Example: upd=13,Reno - updates model with id=13 to Reno</p>
+		</div>
+		<h2>Output console:</h2>
+		<div class="status">
+			{{status}} <br>
+			{{info}}
+		</div>
+	</div>
+</body>
+</html>
