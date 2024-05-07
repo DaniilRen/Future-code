@@ -12,3 +12,11 @@ flask-login
 django
 flet
 fastapi
+jupyter
+notebook
+tensorflow
+pandas
+seaborn
+scikit-learn
+nltk
+beautifulsoup4 
